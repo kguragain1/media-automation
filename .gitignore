@@ -1,2 +1,2 @@
-*\logs
-*\config\prowlarr\Definitions
+**/logs/
+/config/prowlarr/Definitions
