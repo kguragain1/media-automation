@@ -14,130 +14,115 @@ services:
       - proxy
     restart: unless-stopped
 
-  qbittorrent:
-    image: lscr.io/linuxserver/qbittorrent:latest
-    container_name: qbittorrent
-    environment:
-      - PUID=1000
-      - PGID=1000
-      - TZ=Australia/Melbourne
-      - WEBUI_PORT=8080
-    volumes:
-      - ./config/qbittorrent:/config
-      - ./downloads:/downloads
-    ports:
-      - "8080:8080"   # LAN only
-      - "6881:6881"
-      - "6881:6881/udp"
-    networks:
-      - proxy
-    restart: unless-stopped
+#  qbittorrent:
+#    image: lscr.io/linuxserver/qbittorrent:latest
+#    container_name: qbittorrent
+#    environment:
+#      - PUID=1000
+#      - PGID=1000
+#      - TZ=Australia/Melbourne
+#      - WEBUI_PORT=8080
+#    volumes:
+#      - ./config/qbittorrent:/config
+#      - ./downloads:/downloads
+#    ports:
+#      - "8080:8080"   # LAN only
+#      - "6881:6881"
+#      - "6881:6881/udp"
+#    networks:
+#      - proxy
+#    restart: unless-stopped
+#
+#  sonarr:
+#    image: lscr.io/linuxserver/sonarr:latest
+#    container_name: sonarr
+#    environment:
+#      - PUID=1000
+#      - PGID=1000
+#      - TZ=Australia/Melbourne
+#    volumes:
+#      - ./config/sonarr:/config
+#      - ./downloads:/downloads
+#      - ./media/tv:/tv
+#    ports:
+#      - "8989:8989"   # LAN only
+#    networks:
+#      - proxy
+#    restart: unless-stopped
+#
+#  radarr:
+#    image: lscr.io/linuxserver/radarr:latest
+#    container_name: radarr
+#    environment:
+#      - PUID=1000
+#      - PGID=1000
+#      - TZ=Australia/Melbourne
+#    volumes:
+#      - ./config/radarr:/config
+#      - ./downloads:/downloads
+#      - ./media/movies:/movies
+#    ports:
+#      - "7878:7878"   # LAN only
+#    networks:
+#      - proxy
+#    restart: unless-stopped
 
-  sonarr:
-    image: lscr.io/linuxserver/sonarr:latest
-    container_name: sonarr
-    environment:
-      - PUID=1000
-      - PGID=1000
-      - TZ=Australia/Melbourne
-    volumes:
-      - ./config/sonarr:/config
-      - ./downloads:/downloads
-      - ./media/tv:/tv
-    ports:
-      - "8989:8989"   # LAN only
-    networks:
-      - proxy
-    restart: unless-stopped
+#  jellyfin:
+#    image: lscr.io/linuxserver/jellyfin:latest
+#    container_name: jellyfin
+#    environment:
+#      - PUID=1000
+#      - PGID=1000
+#      - TZ=Australia/Sydney
+#    volumes:
+#      - ./jellyfin/config:/config
+#      - ./media/movies:/movies
+#      - ./media/tv:/tv
+#    networks:
+#      - proxy
+#    ports:
+#      - "8096:8096"   # LAN only
+#    restart: unless-stopped
 
-  radarr:
-    image: lscr.io/linuxserver/radarr:latest
-    container_name: radarr
-    environment:
-      - PUID=1000
-      - PGID=1000
-      - TZ=Australia/Melbourne
-    volumes:
-      - ./config/radarr:/config
-      - ./downloads:/downloads
-      - ./media/movies:/movies
-    ports:
-      - "7878:7878"   # LAN only
-    networks:
-      - proxy
-    restart: unless-stopped
+#  jellyseerr:
+#    image: fallenbagel/jellyseerr:latest
+#    container_name: jellyseerr
+#    environment:
+#      - TZ=Australia/Sydney
+#    volumes:
+#      - ./jellyseerr/config:/app/config
+#    networks:
+#      - proxy
+#    ports:
+#      - "5055:5055"   # LAN only
+#    restart: unless-stopped
 
-  jellyfin:
-    image: lscr.io/linuxserver/jellyfin:latest
-    container_name: jellyfin
-    environment:
-      - PUID=1000
-      - PGID=1000
-      - TZ=Australia/Sydney
-    volumes:
-      - ./jellyfin/config:/config
-      - ./media/movies:/movies
-      - ./media/tv:/tv
-    networks:
-      - proxy
-    ports:
-      - "8096:8096"   # LAN only
-    restart: unless-stopped
+#  nginx-proxy:
+#    image: jc21/nginx-proxy-manager:latest
+#    container_name: nginx-proxy
+#    restart: unless-stopped
+#    networks:
+#      - proxy
+#    ports:
+#      - "81:81"     # Admin UI (accessible externally if needed)
+#      - "80:80"     # HTTP
+#      - "443:443"   # HTTPS
 
-  jellyseerr:
-    image: fallenbagel/jellyseerr:latest
-    container_name: jellyseerr
-    environment:
-      - TZ=Australia/Sydney
-    volumes:
-      - ./jellyseerr/config:/app/config
-    networks:
-      - proxy
-    ports:
-      - "5055:5055"   # LAN only
-    restart: unless-stopped
+#    environment:
+#      - DB_SQLITE_FILE=/data/database.sqlite
+#    volumes:
+#      - ./nginx/data:/data
+#      - ./nginx/letsencrypt:/etc/letsencrypt
 
-  nginx-proxy:
-    image: jc21/nginx-proxy-manager:latest
-    container_name: nginx-proxy
-    restart: unless-stopped
-    networks:
-      - proxy
-    ports:
-      - "81:81"     # Admin UI (accessible externally if needed)
-      - "80:80"     # HTTP
-      - "443:443"   # HTTPS
-
-    environment:
-      - DB_SQLITE_FILE=/data/database.sqlite
-    volumes:
-      - ./nginx/data:/data
-      - ./nginx/letsencrypt:/etc/letsencrypt
-
-  cloudflared:
-    image: cloudflare/cloudflared:latest
-    container_name: cloudflared
-    restart: unless-stopped
-    networks:
-      - proxy
-    volumes:
-      - ./cloudflared:/etc/cloudflared
-    command: tunnel --no-autoupdate run 6f5e7bd8-0253-4776-bd39-6b7c4bd8cc76
-  
-  unmanic:
-    image: josh5/unmanic:latest
-    container_name: unmanic
-    environment:
-      - PUID=1000
-      - PGID=1000
-      - TZ=Australia/Melbourne
-    volumes:
-      - ./config/unmanic:/config
-      - ./media:/library   # <-- your entire media folder
-      - ./downloads:/downloads  # allows optimising new files before import
-    networks:
-      - proxy
-    restart: unless-stopped
+#  cloudflared:
+#    image: cloudflare/cloudflared:latest
+#    container_name: cloudflared
+#    restart: unless-stopped
+#    networks:
+#      - proxy
+#    volumes:
+#      - ./cloudflared:/etc/cloudflared
+#    command: tunnel --no-autoupdate run 6f5e7bd8-0253-4776-bd39-6b7c4bd8cc76
 
 networks:
   proxy:
