@@ -1,7 +1,0 @@
-2025/11/17 10:47:24 [error] 218#218: *1487 open() "/var/www/html/robots.txt" failed (2: No such file or directory), client: 172.18.0.2, server: localhost-nginx-proxy-manager, request: "GET /robots.txt HTTP/1.1", host: "ashmit.me"
-2025/11/17 11:39:14 [warn] 225#225: *1 using uninitialized "server" variable while logging request, client: 127.0.0.1, server: request.ashmit.me, request: "GET / HTTP/1.1", upstream: "http://172.18.0.5:5055/", host: "request.ashmit.me"
-2025/11/17 11:41:44 [warn] 198#198: *2 using uninitialized "server" variable while logging request, client: 172.18.0.1, server: watch.ashmit.me, request: "GET / HTTP/1.1", upstream: "http://172.18.0.3:8096/", host: "watch.ashmit.me"
-2025/11/17 11:41:44 [warn] 198#198: *2 using uninitialized "server" variable while logging request, client: 172.18.0.1, server: watch.ashmit.me, request: "GET /web/ HTTP/1.1", upstream: "http://172.18.0.3:8096/web/", host: "watch.ashmit.me"
-2025/11/17 11:41:45 [warn] 198#198: *2 using uninitialized "server" variable while logging request, client: 172.18.0.1, server: request.ashmit.me, request: "GET / HTTP/1.1", upstream: "http://172.18.0.5:5055/", host: "request.ashmit.me"
-2025/11/17 11:41:45 [warn] 198#198: *2 using uninitialized "server" variable while logging request, client: 172.18.0.1, server: request.ashmit.me, request: "GET /login HTTP/1.1", upstream: "http://172.18.0.5:5055/login", host: "request.ashmit.me"
-2025/11/17 11:45:52 [warn] 172#172: conflicting server name "watch.ashmit.me" on 0.0.0.0:80, ignored
