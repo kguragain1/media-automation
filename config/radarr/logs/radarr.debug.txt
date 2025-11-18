@@ -1088,3 +1088,29 @@ error code: 500
 
 
 2025-11-18 23:07:54.9|Debug|ImportListSyncService|No enabled import lists, skipping sync and cleaning
+2025-11-18 23:11:52.5|Debug|Radarr.Http.Authentication.NoAuthenticationHandler|AuthenticationScheme: None was successfully authenticated.
+2025-11-18 23:11:52.9|Debug|Radarr.Http.Authentication.NoAuthenticationHandler|AuthenticationScheme: None was successfully authenticated.
+2025-11-18 23:11:53.0|Debug|Api|[GET] /api/v3/localization/language: 200.OK (16 ms)
+2025-11-18 23:11:53.0|Debug|Api|[GET] /api/v3/tag: 200.OK (19 ms)
+2025-11-18 23:11:53.0|Debug|Api|[GET] /api/v3/customFilter: 200.OK (23 ms)
+2025-11-18 23:11:53.0|Debug|Api|[GET] /api/v3/language: 200.OK (10 ms)
+2025-11-18 23:11:53.1|Debug|Api|[GET] /api/v3/collection: 200.OK (74 ms)
+2025-11-18 23:11:53.1|Debug|Api|[GET] /api/v3/qualityprofile: 200.OK (66 ms)
+2025-11-18 23:11:53.1|Debug|Api|[GET] /api/v3/movie: 200.OK (80 ms)
+2025-11-18 23:11:53.1|Debug|Api|[GET] /api/v3/indexerFlag: 200.OK (9 ms)
+2025-11-18 23:11:53.1|Debug|Api|[GET] /api/v3/importlist: 200.OK (36 ms)
+2025-11-18 23:11:53.1|Debug|Api|[GET] /api/v3/config/ui: 200.OK (27 ms)
+2025-11-18 23:11:53.2|Debug|Api|[GET] /api/v3/system/status: 200.OK (44 ms)
+2025-11-18 23:11:53.2|Debug|Api|[GET] /api/v3/localization: 200.OK (32 ms)
+2025-11-18 23:11:53.3|Debug|Api|[GET] /api/v3/queue/status: 200.OK (16 ms)
+2025-11-18 23:11:53.3|Debug|Api|[GET] /api/v3/health: 200.OK (21 ms)
+2025-11-18 23:11:53.3|Debug|Api|[GET] /api/v3/queue/details?all=true: 200.OK (50 ms)
+2025-11-18 23:11:53.4|Debug|Api|[GET] /api/v3/config/host: 200.OK (115 ms)
+2025-11-18 23:11:58.1|Debug|Api|[GET] /api/v3/health: 200.OK (2 ms)
+2025-11-18 23:12:55.7|Debug|ImportListSyncService|No enabled import lists, skipping sync and cleaning
+2025-11-18 23:12:55.8|Debug|Api|[GET] /api/v3/queue/details?all=true: 200.OK (16 ms)
+2025-11-18 23:12:55.8|Debug|Api|[GET] /api/v3/command: 200.OK (13 ms)
+2025-11-18 23:12:55.9|Debug|Api|[GET] /api/v3/queue/details?all=true: 200.OK (1 ms)
+2025-11-18 23:12:55.9|Debug|Api|[GET] /api/v3/command: 200.OK (1 ms)
+2025-11-18 23:12:55.9|Debug|Api|[GET] /api/v3/command: 200.OK (0 ms)
+2025-11-18 23:12:56.0|Debug|Api|[GET] /api/v3/command: 200.OK (0 ms)

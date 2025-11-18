@@ -113,15 +113,15 @@ services:
       - ./nginx/data:/data
       - ./nginx/letsencrypt:/etc/letsencrypt
 
-#  cloudflared:
-#    image: cloudflare/cloudflared:latest
-#    container_name: cloudflared
-#    restart: unless-stopped
-#    networks:
-#      - proxy
-#    volumes:
-#      - ./cloudflared:/etc/cloudflared
-#    command: tunnel --no-autoupdate run 6f5e7bd8-0253-4776-bd39-6b7c4bd8cc76
+  cloudflared:
+    image: cloudflare/cloudflared:latest
+    container_name: cloudflared
+    restart: unless-stopped
+    networks:
+      - proxy
+    volumes:
+      - ./cloudflared:/etc/cloudflared
+    command: tunnel --no-autoupdate run 6f5e7bd8-0253-4776-bd39-6b7c4bd8cc76
 
 networks:
   proxy:

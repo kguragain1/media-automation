@@ -1291,3 +1291,15 @@ error code: 500
 error code: 500
 
 
+2025-11-18 23:12:08.2|Warn|HttpClient|HTTP Error - Res: HTTP/2.0 [GET] https://indexers.prowlarr.com/master/11: 500.InternalServerError (15 bytes)
+error code: 500
+2025-11-18 23:12:08.3|Warn|IndexerDefinitionUpdateService|Error while getting indexer definitions, fallback to reading from disk.
+
+[v2.1.5.5216] NzbDrone.Common.Http.HttpException: HTTP request failed: [500:InternalServerError] [GET] at [https://indexers.prowlarr.com/master/11]
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./NzbDrone.Common/Http/HttpClient.cs:line 128
+   at NzbDrone.Common.Http.HttpClient.GetAsync[T](HttpRequest request) in ./NzbDrone.Common/Http/HttpClient.cs:line 393
+   at NzbDrone.Common.Http.HttpClient.Get[T](HttpRequest request) in ./NzbDrone.Common/Http/HttpClient.cs:line 401
+   at NzbDrone.Core.IndexerVersions.IndexerDefinitionUpdateService.All() in ./NzbDrone.Core/IndexerVersions/IndexerDefinitionUpdateService.cs:line 95
+error code: 500
+
+

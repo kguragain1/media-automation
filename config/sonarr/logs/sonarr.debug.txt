@@ -1608,3 +1608,48 @@ error code: 500
 error code: 500
 
 2025-11-18 23:06:51.1|Debug|ImportListSyncService|No import lists with automatic add enabled
+2025-11-18 23:11:51.4|Debug|ImportListSyncService|No import lists with automatic add enabled
+2025-11-18 23:11:57.3|Debug|Sonarr.Http.Authentication.NoAuthenticationHandler|AuthenticationScheme: None was successfully authenticated.
+2025-11-18 23:11:57.6|Debug|Sonarr.Http.Authentication.NoAuthenticationHandler|AuthenticationScheme: None was successfully authenticated.
+2025-11-18 23:11:57.7|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-11-18 23:11:57.7|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-11-18 23:11:57.7|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-11-18 23:11:57.7|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-11-18 23:11:57.7|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-11-18 23:11:57.7|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-11-18 23:11:57.7|Debug|Api|[GET] /api/v3/localization/language: 200.OK (27 ms)
+2025-11-18 23:11:57.7|Debug|Api|[GET] /api/v3/tag: 200.OK (27 ms)
+2025-11-18 23:11:57.7|Debug|Api|[GET] /api/v3/customFilter: 200.OK (44 ms)
+2025-11-18 23:11:57.8|Debug|Api|[GET] /api/v3/language: 200.OK (73 ms)
+2025-11-18 23:11:57.8|Debug|Api|[GET] /api/v3/series: 200.OK (95 ms)
+2025-11-18 23:11:57.8|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-11-18 23:11:57.8|Debug|Api|[GET] /api/v3/qualityprofile: 200.OK (113 ms)
+2025-11-18 23:11:57.8|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-11-18 23:11:57.8|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-11-18 23:11:57.8|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-11-18 23:11:57.9|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-11-18 23:11:57.9|Debug|Api|[GET] /api/v3/importlist: 200.OK (99 ms)
+2025-11-18 23:11:57.9|Debug|Api|[GET] /api/v3/indexerFlag: 200.OK (98 ms)
+2025-11-18 23:11:57.9|Debug|Api|[GET] /api/v3/config/ui: 200.OK (93 ms)
+2025-11-18 23:11:58.0|Debug|Api|[GET] /api/v3/localization: 200.OK (97 ms)
+2025-11-18 23:11:58.0|Debug|Api|[GET] /api/v3/system/status: 200.OK (127 ms)
+2025-11-18 23:11:58.1|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was successfully authenticated.
+2025-11-18 23:11:58.1|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-11-18 23:11:58.1|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-11-18 23:11:58.1|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-11-18 23:11:58.1|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-11-18 23:11:58.1|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-11-18 23:11:58.1|Debug|Api|[GET] /api/v3/queue/status: 200.OK (22 ms)
+2025-11-18 23:11:58.1|Debug|Api|[GET] /api/v3/health: 200.OK (42 ms)
+2025-11-18 23:11:58.1|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was successfully authenticated.
+2025-11-18 23:11:58.1|Debug|Api|[GET] /api/v3/series: 200.OK (56 ms)
+2025-11-18 23:11:58.2|Debug|Api|[GET] /api/v3/queue/details?all=true: 200.OK (105 ms)
+2025-11-18 23:11:58.2|Debug|Api|[GET] /api/v3/config/host: 200.OK (113 ms)
+2025-11-18 23:12:51.4|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-11-18 23:12:51.4|Debug|Api|[GET] /api/v3/queue/details?all=true: 200.OK (7 ms)
+2025-11-18 23:12:51.4|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-11-18 23:12:51.4|Debug|Api|[GET] /api/v3/queue/details?all=true: 200.OK (6 ms)
+2025-11-18 23:12:51.5|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-11-18 23:12:51.5|Debug|Api|[GET] /api/v3/command: 200.OK (37 ms)
+2025-11-18 23:12:51.5|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-11-18 23:12:51.5|Debug|Api|[GET] /api/v3/command: 200.OK (18 ms)
