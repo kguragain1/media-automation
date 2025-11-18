@@ -1,0 +1,17 @@
+2025-11-18T12:05:00.883Z [info]: Commit Tag: $GIT_SHA 
+2025-11-18T12:05:01.466Z [info]: Starting Jellyseerr version 2.7.3 
+2025-11-18T12:05:03.381Z [info][Notifications]: Registered notification agents 
+2025-11-18T12:05:03.388Z [info][Server]: Skipping starting the scheduled jobs as we have no Plex/Jellyfin/Emby servers setup yet 
+2025-11-18T12:05:03.391Z [info][Discover Slider]: Creating built-in discovery slider {"slider":{"type":1,"enabled":true,"isBuiltIn":true,"order":0}}
+2025-11-18T12:05:03.418Z [info][Discover Slider]: Creating built-in discovery slider {"slider":{"type":2,"enabled":true,"isBuiltIn":true,"order":1}}
+2025-11-18T12:05:03.439Z [info][Discover Slider]: Creating built-in discovery slider {"slider":{"type":3,"enabled":true,"isBuiltIn":true,"order":2}}
+2025-11-18T12:05:03.460Z [info][Discover Slider]: Creating built-in discovery slider {"slider":{"type":4,"enabled":true,"isBuiltIn":true,"order":3}}
+2025-11-18T12:05:03.481Z [info][Discover Slider]: Creating built-in discovery slider {"slider":{"type":5,"enabled":true,"isBuiltIn":true,"order":4}}
+2025-11-18T12:05:03.502Z [info][Discover Slider]: Creating built-in discovery slider {"slider":{"type":6,"enabled":true,"isBuiltIn":true,"order":5}}
+2025-11-18T12:05:03.523Z [info][Discover Slider]: Creating built-in discovery slider {"slider":{"type":7,"enabled":true,"isBuiltIn":true,"order":6}}
+2025-11-18T12:05:03.543Z [info][Discover Slider]: Creating built-in discovery slider {"slider":{"type":8,"enabled":true,"isBuiltIn":true,"order":7}}
+2025-11-18T12:05:03.565Z [info][Discover Slider]: Creating built-in discovery slider {"slider":{"type":9,"enabled":true,"isBuiltIn":true,"order":8}}
+2025-11-18T12:05:03.586Z [info][Discover Slider]: Creating built-in discovery slider {"slider":{"type":10,"enabled":true,"isBuiltIn":true,"order":9}}
+2025-11-18T12:05:03.606Z [info][Discover Slider]: Creating built-in discovery slider {"slider":{"type":11,"enabled":true,"isBuiltIn":true,"order":10}}
+2025-11-18T12:05:03.628Z [info][Discover Slider]: Creating built-in discovery slider {"slider":{"type":12,"enabled":true,"isBuiltIn":true,"order":11}}
+2025-11-18T12:05:03.763Z [info][Server]: Server ready on port 5055 

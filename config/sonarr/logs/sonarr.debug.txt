@@ -1607,3 +1607,4 @@ error code: 500
    at NzbDrone.Core.HealthCheck.Checks.SystemTimeCheck.Check() in ./Sonarr.Core/HealthCheck/Checks/SystemTimeCheck.cs:line 32
 error code: 500
 
+2025-11-18 23:06:51.1|Debug|ImportListSyncService|No import lists with automatic add enabled

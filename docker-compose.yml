@@ -84,18 +84,18 @@ services:
       - "8096:8096"   # LAN only
     restart: unless-stopped
 
-#  jellyseerr:
-#    image: fallenbagel/jellyseerr:latest
-#    container_name: jellyseerr
-#    environment:
-#      - TZ=Australia/Sydney
-#    volumes:
-#      - ./jellyseerr/config:/app/config
-#    networks:
-#      - proxy
-#    ports:
-#      - "5055:5055"   # LAN only
-#    restart: unless-stopped
+  jellyseerr:
+    image: fallenbagel/jellyseerr:latest
+    container_name: jellyseerr
+    environment:
+      - TZ=Australia/Sydney
+    volumes:
+      - ./jellyseerr/config:/app/config
+    networks:
+      - proxy
+    ports:
+      - "5055:5055"   # LAN only
+    restart: unless-stopped
 
 #  nginx-proxy:
 #    image: jc21/nginx-proxy-manager:latest

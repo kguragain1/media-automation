@@ -1,0 +1,17 @@
+{"level":"info","message":"Commit Tag: $GIT_SHA","timestamp":"2025-11-18T12:05:00.883Z"}
+{"level":"info","message":"Starting Jellyseerr version 2.7.3","timestamp":"2025-11-18T12:05:01.466Z"}
+{"label":"Notifications","level":"info","message":"Registered notification agents","timestamp":"2025-11-18T12:05:03.381Z"}
+{"label":"Server","level":"info","message":"Skipping starting the scheduled jobs as we have no Plex/Jellyfin/Emby servers setup yet","timestamp":"2025-11-18T12:05:03.388Z"}
+{"label":"Discover Slider","level":"info","message":"Creating built-in discovery slider","slider":{"enabled":true,"isBuiltIn":true,"order":0,"type":1},"timestamp":"2025-11-18T12:05:03.391Z"}
+{"label":"Discover Slider","level":"info","message":"Creating built-in discovery slider","slider":{"enabled":true,"isBuiltIn":true,"order":1,"type":2},"timestamp":"2025-11-18T12:05:03.418Z"}
+{"label":"Discover Slider","level":"info","message":"Creating built-in discovery slider","slider":{"enabled":true,"isBuiltIn":true,"order":2,"type":3},"timestamp":"2025-11-18T12:05:03.439Z"}
+{"label":"Discover Slider","level":"info","message":"Creating built-in discovery slider","slider":{"enabled":true,"isBuiltIn":true,"order":3,"type":4},"timestamp":"2025-11-18T12:05:03.460Z"}
+{"label":"Discover Slider","level":"info","message":"Creating built-in discovery slider","slider":{"enabled":true,"isBuiltIn":true,"order":4,"type":5},"timestamp":"2025-11-18T12:05:03.481Z"}
+{"label":"Discover Slider","level":"info","message":"Creating built-in discovery slider","slider":{"enabled":true,"isBuiltIn":true,"order":5,"type":6},"timestamp":"2025-11-18T12:05:03.502Z"}
+{"label":"Discover Slider","level":"info","message":"Creating built-in discovery slider","slider":{"enabled":true,"isBuiltIn":true,"order":6,"type":7},"timestamp":"2025-11-18T12:05:03.523Z"}
+{"label":"Discover Slider","level":"info","message":"Creating built-in discovery slider","slider":{"enabled":true,"isBuiltIn":true,"order":7,"type":8},"timestamp":"2025-11-18T12:05:03.543Z"}
+{"label":"Discover Slider","level":"info","message":"Creating built-in discovery slider","slider":{"enabled":true,"isBuiltIn":true,"order":8,"type":9},"timestamp":"2025-11-18T12:05:03.565Z"}
+{"label":"Discover Slider","level":"info","message":"Creating built-in discovery slider","slider":{"enabled":true,"isBuiltIn":true,"order":9,"type":10},"timestamp":"2025-11-18T12:05:03.586Z"}
+{"label":"Discover Slider","level":"info","message":"Creating built-in discovery slider","slider":{"enabled":true,"isBuiltIn":true,"order":10,"type":11},"timestamp":"2025-11-18T12:05:03.606Z"}
+{"label":"Discover Slider","level":"info","message":"Creating built-in discovery slider","slider":{"enabled":true,"isBuiltIn":true,"order":11,"type":12},"timestamp":"2025-11-18T12:05:03.628Z"}
+{"label":"Server","level":"info","message":"Server ready on port 5055","timestamp":"2025-11-18T12:05:03.763Z"}
