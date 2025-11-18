@@ -97,22 +97,21 @@ services:
       - "5055:5055"   # LAN only
     restart: unless-stopped
 
-#  nginx-proxy:
-#    image: jc21/nginx-proxy-manager:latest
-#    container_name: nginx-proxy
-#    restart: unless-stopped
-#    networks:
-#      - proxy
-#    ports:
-#      - "81:81"     # Admin UI (accessible externally if needed)
-#      - "80:80"     # HTTP
-#      - "443:443"   # HTTPS
-
-#    environment:
-#      - DB_SQLITE_FILE=/data/database.sqlite
-#    volumes:
-#      - ./nginx/data:/data
-#      - ./nginx/letsencrypt:/etc/letsencrypt
+  nginx-proxy:
+    image: jc21/nginx-proxy-manager:latest
+    container_name: nginx-proxy
+    restart: unless-stopped
+    networks:
+      - proxy
+    ports:
+      - "81:81"     # Admin UI (accessible externally if needed)
+      - "80:80"     # HTTP
+      - "443:443"   # HTTPS
+    environment:
+      - DB_SQLITE_FILE=/data/database.sqlite
+    volumes:
+      - ./nginx/data:/data
+      - ./nginx/letsencrypt:/etc/letsencrypt
 
 #  cloudflared:
 #    image: cloudflare/cloudflared:latest
