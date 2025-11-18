@@ -37,3 +37,14 @@
 {"label":"Notifications","level":"info","message":"Registered notification agents","timestamp":"2025-11-18T12:37:10.835Z"}
 {"label":"Server","level":"info","message":"Skipping starting the scheduled jobs as we have no Plex/Jellyfin/Emby servers setup yet","timestamp":"2025-11-18T12:37:10.846Z"}
 {"label":"Server","level":"info","message":"Server ready on port 5055","timestamp":"2025-11-18T12:37:11.108Z"}
+{"level":"info","message":"Commit Tag: $GIT_SHA","timestamp":"2025-11-18T12:38:46.717Z"}
+{"level":"info","message":"Starting Jellyseerr version 2.7.3","timestamp":"2025-11-18T12:38:47.475Z"}
+{"label":"Settings Migrator","level":"debug","message":"Checking migration '0001_migrate_hostname.js'...","timestamp":"2025-11-18T12:38:48.953Z"}
+{"label":"Settings Migrator","level":"debug","message":"Checking migration '0002_migrate_apitokens.js'...","timestamp":"2025-11-18T12:38:48.957Z"}
+{"label":"Settings Migrator","level":"debug","message":"Checking migration '0003_emby_media_server_type.js'...","timestamp":"2025-11-18T12:38:48.961Z"}
+{"label":"Settings Migrator","level":"debug","message":"Checking migration '0004_migrate_region_setting.js'...","timestamp":"2025-11-18T12:38:48.963Z"}
+{"label":"Settings Migrator","level":"debug","message":"Checking migration '0005_migrate_network_settings.js'...","timestamp":"2025-11-18T12:38:48.964Z"}
+{"label":"Settings Migrator","level":"debug","message":"Checking migration '0006_remove_lunasea.js'...","timestamp":"2025-11-18T12:38:48.965Z"}
+{"label":"Notifications","level":"info","message":"Registered notification agents","timestamp":"2025-11-18T12:38:48.977Z"}
+{"label":"Server","level":"info","message":"Skipping starting the scheduled jobs as we have no Plex/Jellyfin/Emby servers setup yet","timestamp":"2025-11-18T12:38:48.985Z"}
+{"label":"Server","level":"info","message":"Server ready on port 5055","timestamp":"2025-11-18T12:38:49.263Z"}
