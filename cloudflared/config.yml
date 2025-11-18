@@ -1,0 +1,13 @@
+tunnel: 6f5e7bd8-0253-4776-bd39-6b7c4bd8cc76                    # Replace with your existing tunnel UUID
+credentials-file: /etc/cloudflared/6f5e7bd8-0253-4776-bd39-6b7c4bd8cc76.json  # e.g., cbcdfe509b7d.json
+
+ingress:
+  - hostname: ashmit.me
+    service: http://nginx-proxy:80
+
+  - hostname: watch.ashmit.me
+    service: http://nginx-proxy:80   # or whichever container/port handles that app
+
+  - hostname: request.ashmit.me
+    service: http://nginx-proxy:80
+  - service: http_status:404

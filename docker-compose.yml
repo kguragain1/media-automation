@@ -123,6 +123,23 @@ services:
     volumes:
       - ./cloudflared:/etc/cloudflared
     command: tunnel --no-autoupdate run 6f5e7bd8-0253-4776-bd39-6b7c4bd8cc76
+  
+  unmanic:
+    image: josh5/unmanic:latest
+    container_name: unmanic
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Australia/Melbourne
+    volumes:
+      - ./config/unmanic:/config
+      - ./media:/library   # <-- your entire media folder
+      - ./downloads:/downloads  # allows optimising new files before import
+    networks:
+      - proxy
+    restart: unless-stopped
+
 networks:
   proxy:
     external: true
+    
