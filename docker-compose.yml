@@ -49,23 +49,23 @@ services:
     networks:
       - proxy
     restart: unless-stopped
-#
-#  radarr:
-#    image: lscr.io/linuxserver/radarr:latest
-#    container_name: radarr
-#    environment:
-#      - PUID=1000
-#      - PGID=1000
-#      - TZ=Australia/Melbourne
-#    volumes:
-#      - ./config/radarr:/config
-#      - ./downloads:/downloads
-#      - ./media/movies:/movies
-#    ports:
-#      - "7878:7878"   # LAN only
-#    networks:
-#      - proxy
-#    restart: unless-stopped
+
+  radarr:
+    image: lscr.io/linuxserver/radarr:latest
+    container_name: radarr
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Australia/Melbourne
+    volumes:
+      - ./config/radarr:/config
+      - ./downloads:/downloads
+      - ./media/movies:/movies
+    ports:
+      - "7878:7878"   # LAN only
+    networks:
+      - proxy
+    restart: unless-stopped
 
 #  jellyfin:
 #    image: lscr.io/linuxserver/jellyfin:latest
