@@ -5168,3 +5168,74 @@
 2025-11-18 23:01:18.8|Info|add_on_import_complete_to_notifications|Starting migration of Log DB to 209
 2025-11-18 23:01:18.8|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|INSERT INTO "VersionInfo" ("Version", "AppliedOn", "Description") VALUES (209, '2025-11-18T12:01:18', 'add_on_import_complete_to_notifications')
 2025-11-18 23:01:18.8|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Committing Transaction
+2025-11-18 23:01:18.9|Info|FluentMigrator.Runner.MigrationRunner|209: add_on_import_complete_to_notifications migrated
+2025-11-18 23:01:18.9|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0626539s
+2025-11-18 23:01:18.9|Info|FluentMigrator.Runner.MigrationRunner|210: add_monitored_seasons_filter migrating
+2025-11-18 23:01:18.9|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Beginning Transaction
+2025-11-18 23:01:18.9|Info|add_monitored_seasons_filter|Starting migration of Log DB to 210
+2025-11-18 23:01:18.9|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|INSERT INTO "VersionInfo" ("Version", "AppliedOn", "Description") VALUES (210, '2025-11-18T12:01:18', 'add_monitored_seasons_filter')
+2025-11-18 23:01:18.9|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Committing Transaction
+2025-11-18 23:01:18.9|Info|FluentMigrator.Runner.MigrationRunner|210: add_monitored_seasons_filter migrated
+2025-11-18 23:01:19.0|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0588632s
+2025-11-18 23:01:19.0|Info|FluentMigrator.Runner.MigrationRunner|211: add_custom_colon_replacement_to_naming_config migrating
+2025-11-18 23:01:19.0|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Beginning Transaction
+2025-11-18 23:01:19.0|Info|add_custom_colon_replacement_to_naming_config|Starting migration of Log DB to 211
+2025-11-18 23:01:19.0|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|INSERT INTO "VersionInfo" ("Version", "AppliedOn", "Description") VALUES (211, '2025-11-18T12:01:19', 'add_custom_colon_replacement_to_naming_config')
+2025-11-18 23:01:19.0|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Committing Transaction
+2025-11-18 23:01:19.1|Info|FluentMigrator.Runner.MigrationRunner|211: add_custom_colon_replacement_to_naming_config migrated
+2025-11-18 23:01:19.1|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0832119s
+2025-11-18 23:01:19.1|Info|FluentMigrator.Runner.MigrationRunner|212: add_minium_upgrade_format_score_to_quality_profiles migrating
+2025-11-18 23:01:19.1|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Beginning Transaction
+2025-11-18 23:01:19.1|Info|add_minium_upgrade_format_score_to_quality_profiles|Starting migration of Log DB to 212
+2025-11-18 23:01:19.2|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|INSERT INTO "VersionInfo" ("Version", "AppliedOn", "Description") VALUES (212, '2025-11-18T12:01:19', 'add_minium_upgrade_format_score_to_quality_profiles')
+2025-11-18 23:01:19.2|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Committing Transaction
+2025-11-18 23:01:19.2|Info|FluentMigrator.Runner.MigrationRunner|212: add_minium_upgrade_format_score_to_quality_profiles migrated
+2025-11-18 23:01:19.2|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0655416s
+2025-11-18 23:01:19.2|Info|FluentMigrator.Runner.MigrationRunner|214: add_blurary576p_quality_in_profiles migrating
+2025-11-18 23:01:19.2|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Beginning Transaction
+2025-11-18 23:01:19.2|Info|add_blurary576p_quality_in_profiles|Starting migration of Log DB to 214
+2025-11-18 23:01:19.3|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|INSERT INTO "VersionInfo" ("Version", "AppliedOn", "Description") VALUES (214, '2025-11-18T12:01:19', 'add_blurary576p_quality_in_profiles')
+2025-11-18 23:01:19.3|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Committing Transaction
+2025-11-18 23:01:19.3|Info|FluentMigrator.Runner.MigrationRunner|214: add_blurary576p_quality_in_profiles migrated
+2025-11-18 23:01:19.3|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0664686s
+2025-11-18 23:01:19.3|Info|FluentMigrator.Runner.MigrationRunner|215: add_blurary576p_quality_in_profiles_with_grouped_blurary480p migrating
+2025-11-18 23:01:19.3|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Beginning Transaction
+2025-11-18 23:01:19.3|Info|add_blurary576p_quality_in_profiles_with_grouped_blurary480p|Starting migration of Log DB to 215
+2025-11-18 23:01:19.4|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|INSERT INTO "VersionInfo" ("Version", "AppliedOn", "Description") VALUES (215, '2025-11-18T12:01:19', 'add_blurary576p_quality_in_profiles_with_grouped_blurary480p')
+2025-11-18 23:01:19.4|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Committing Transaction
+2025-11-18 23:01:19.4|Info|FluentMigrator.Runner.MigrationRunner|215: add_blurary576p_quality_in_profiles_with_grouped_blurary480p migrated
+2025-11-18 23:01:19.4|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0611605s
+2025-11-18 23:01:19.4|Info|FluentMigrator.Runner.MigrationRunner|217: add_mal_and_anilist_ids migrating
+2025-11-18 23:01:19.4|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Beginning Transaction
+2025-11-18 23:01:19.4|Info|add_mal_and_anilist_ids|Starting migration of Log DB to 217
+2025-11-18 23:01:19.4|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|INSERT INTO "VersionInfo" ("Version", "AppliedOn", "Description") VALUES (217, '2025-11-18T12:01:19', 'add_mal_and_anilist_ids')
+2025-11-18 23:01:19.5|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Committing Transaction
+2025-11-18 23:01:19.5|Info|FluentMigrator.Runner.MigrationRunner|217: add_mal_and_anilist_ids migrated
+2025-11-18 23:01:19.5|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0822611s
+2025-11-18 23:01:19.8|Info|Microsoft.Hosting.Lifetime|Now listening on: http://[::]:8989
+2025-11-18 23:01:19.9|Info|UpdaterConfigProvider|Update mechanism BuiltIn not supported in the current configuration, changing to Docker.
+2025-11-18 23:01:20.2|Info|QualityProfileService|Setting up default quality profiles
+2025-11-18 23:01:20.7|Info|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2025-11-18 23:01:20.7|Info|Microsoft.Hosting.Lifetime|Hosting environment: Production
+2025-11-18 23:01:20.7|Info|Microsoft.Hosting.Lifetime|Content root path: /app/sonarr/bin
+2025-11-18 23:01:20.9|Info|ManagedHttpDispatcher|IPv4 is available: True, IPv6 will be disabled
+2025-11-18 23:01:21.2|Warn|HttpClient|HTTP Error - Res: HTTP/2.0 [GET] https://services.sonarr.tv/v1/notification?version=4.0.16.2944&os=linuxmusl&arch=X64&branch=main: 500.InternalServerError (15 bytes)
+error code: 500
+2025-11-18 23:01:21.2|Error|ServerSideNotificationService|Failed to retrieve notifications
+
+[v4.0.16.2944] NzbDrone.Common.Http.HttpException: HTTP request failed: [500:InternalServerError] [GET] at [https://services.sonarr.tv/v1/notification?version=4.0.16.2944&os=linuxmusl&arch=X64&branch=main]
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./Sonarr.Common/Http/HttpClient.cs:line 119
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in ./Sonarr.Common/Http/HttpClient.cs:line 128
+   at NzbDrone.Core.HealthCheck.ServerSideNotificationService.Check() in ./Sonarr.Core/HealthCheck/ServerSideNotificationService.cs:line 45
+error code: 500
+
+2025-11-18 23:01:21.5|Warn|HttpClient|HTTP Error - Res: HTTP/2.0 [GET] https://services.sonarr.tv/v1/time: 500.InternalServerError (15 bytes)
+error code: 500
+2025-11-18 23:01:21.5|Warn|SystemTimeCheck|Unable to verify system time
+
+[v4.0.16.2944] NzbDrone.Common.Http.HttpException: HTTP request failed: [500:InternalServerError] [GET] at [https://services.sonarr.tv/v1/time]
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./Sonarr.Common/Http/HttpClient.cs:line 119
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in ./Sonarr.Common/Http/HttpClient.cs:line 128
+   at NzbDrone.Core.HealthCheck.Checks.SystemTimeCheck.Check() in ./Sonarr.Core/HealthCheck/Checks/SystemTimeCheck.cs:line 32
+error code: 500
+

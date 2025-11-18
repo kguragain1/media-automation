@@ -13,4 +13,5 @@
   <SslCertPassword></SslCertPassword>
   <UrlBase></UrlBase>
   <InstanceName>Sonarr</InstanceName>
+  <UpdateMechanism>Docker</UpdateMechanism>
 </Config>
