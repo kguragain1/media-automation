@@ -67,22 +67,22 @@ services:
       - proxy
     restart: unless-stopped
 
-#  jellyfin:
-#    image: lscr.io/linuxserver/jellyfin:latest
-#    container_name: jellyfin
-#    environment:
-#      - PUID=1000
-#      - PGID=1000
-#      - TZ=Australia/Sydney
-#    volumes:
-#      - ./jellyfin/config:/config
-#      - ./media/movies:/movies
-#      - ./media/tv:/tv
-#    networks:
-#      - proxy
-#    ports:
-#      - "8096:8096"   # LAN only
-#    restart: unless-stopped
+  jellyfin:
+    image: lscr.io/linuxserver/jellyfin:latest
+    container_name: jellyfin
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Australia/Sydney
+    volumes:
+      - ./jellyfin/config:/config
+      - ./media/movies:/movies
+      - ./media/tv:/tv
+    networks:
+      - proxy
+    ports:
+      - "8096:8096"   # LAN only
+    restart: unless-stopped
 
 #  jellyseerr:
 #    image: fallenbagel/jellyseerr:latest
